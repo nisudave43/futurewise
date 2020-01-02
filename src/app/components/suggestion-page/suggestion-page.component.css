@@ -1,0 +1,46 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    max-height: 250px;
+    height: 250px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+
+  .iconscss{
+    cursor: pointer;
+  }
+
+  .selectedbookmarkclass{
+    color : silver;
+  }
+
+  .unselectedbookmarkclass{
+    color : black;
+  }
+
+  .selecteddislike{
+    color : blue;
+  }
+
+  .unselecteddislike{
+    color : black;
+  }
